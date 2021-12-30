@@ -1,0 +1,98 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.HeaderWrapper {
+    color: white;
+    background-image: url(./Assets/LandingBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#SDGsHeader {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+
+.GoalsSDGs {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    margin-left: 6em;
+    margin-bottom: 3em;
+}
+
+.Goal {
+    padding: 1em;
+    background:rgba(255, 255, 255, 0.7);
+    color: black;
+    text-align: center;
+}
+
+.Goal:hover {
+    background:rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#RCP {
+    padding: 0.3em;
+}
+
+#PJASI {
+    grid-column: 2/3;
+}
+
+#PFTG {
+    grid-column: 3/4;
+}
+
+#GoalEnd:hover {
+    background:rgba(255, 255, 255, 0.7);
+}
+
+
+.Spacer {
+    padding: 2.5em;
+}
+
+@media screen and (max-width: 700px) {
+    .GoalsSDGs {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .Navbar {
+        display: grid;
+        text-align: center;
+    }
+
+    .Navbar a {
+        padding: 1em;
+    }
+
+    #Active {
+        background-color: white;
+        color: black;
+        padding: 1em;
+    }
+
+    .Navbar a:hover {
+        background-color: lightgray;
+        padding: 1em;
+    }
+
+    #PJASI {
+        grid-column: 1/2;
+    }
+    
+    #PFTG {
+        grid-column: 1/2;
+    }
+}

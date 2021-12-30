@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PDB UNAIR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./Components/mission.css">
+        <link rel="stylesheet" href="./Components/modal.css">
+        <link rel="stylesheet" href="./Components/navbar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+        <script src="./Components/mission.js"></script>
+    </head>
+    <body>
+        <div class="Navbar">
+            <a href="#" id="Logo"><b>PDB UNAIR</b></h4>
+            <a href="./index.html">Beranda</a>
+            <a href="./sdgs.html">SDGs</a>
+            <a href="./mission.html" id="Active">Misi</a>
+        </div>
+        <p class="Title">Misi Anda</p>
+        
+        <div class="Wrapper">
+            <div class="Container">
+                <h4>Sebarkan SDGs ke Masyarakat</h4>
+                <p>Sebarkan tentang SDGs melalui berbagai media kepada ...</p>
+                <div onclick="JavaScript:mission1()" class="DetailButton">
+                    <p>Lihat</p>
+                </div>
+            </div>
+            <div class="Container">
+                <h4>Bangkitkan Rasa Kemanusiaan</h4>
+                <p>Dengan membangkitkan rasa Kemanusiaan akan ...</p>
+                <div onclick="JavaScript:mission2()" class="DetailButton">
+                    <p>Lihat</p>
+                </div>
+            </div>
+            <div class="Container">
+                <h4>Melakukan Sedekah</h4>
+                <p>Sedekah yang anda berikan akan membantu mereka ...</p>
+                <div onclick="JavaScript:mission3()" class="DetailButton">
+                    <p>Lihat</p>
+                </div>
+            </div>
+            <div class="Container">
+                <h4>Berbagi dengan Yatim dan Piatu</h4>
+                <p>Mereka yang yatim dan piatu sangat membutuhkan bantuan ...</p>
+                <div onclick="JavaScript:mission4()" class="DetailButton">
+                    <p>Lihat</p>
+                </div>
+            </div>
+            <div class="Container">
+                <h4>Menyediakan Pekerjaan</h4>
+                <p>Dengan menyediakan pekerjaan bagi mereka yang  ...</p>
+                <div onclick="JavaScript:mission5()" class="DetailButton">
+                    <p>Lihat</p>
+                </div>
+            </div>
+            <div class="Container">
+                <h4>Sekolahkan Anak Miskin</h4>
+                <p>Dengan membantu anak miskin untuk bersekolah, maka ...</p>
+                <div onclick="JavaScript:mission6()" class="DetailButton">
+                    <p>Lihat</p>
+                </div>
+            </div>
+        </div>
+        <div class="Spacer"></div>
+                <!--Modal-->
+                <div id="description" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <span onclick="JavaScript:closemodal()" id="close">&times;</span>
+                          <h2 id="title">Modal Header</h2>
+                        </div>
+                        <div class="modal-body">
+                          <p id="overview">Some text in the Modal Body</p>
+                        </div>
+                        <div class="modal-footer">
+                          <h3 id = "genre">Saatnya Kamu Beraksi !</h3>
+                        </div>
+                    </div>
+                </div>
+
+    </body>
+</html>

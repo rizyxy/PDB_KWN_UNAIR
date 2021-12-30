@@ -1,0 +1,68 @@
+body {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./Assets/LandingBg.jpg);
+    background-size: cover;
+}
+
+.Wrapper {
+    margin-top: 18%;
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-rows: 3em 7em 3em;
+}
+
+.Description{
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+.Button {
+    background-color: white;
+    color: black;
+    width: 13em;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    transform: scale(105%);
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+
+    .Wrapper {
+        margin-top: 30%;
+        grid-template-rows: 3em 7em 3em;
+    }
+
+    .Description {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+
+    .Wrapper {
+        margin-top: 40%;
+        grid-template-rows: 3em 10em 3em;
+    }
+
+    .Description {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}

@@ -1,0 +1,64 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-image: url(./Assets/LandingBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Title {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.Head {
+    background-color: white;
+    margin-left: 0.7em;
+    margin-bottom: 5px;
+    padding: 1em;
+    max-width: 1px;
+    border-radius: 50px;
+}
+
+.Body {
+    background-color: white;
+    padding: 1.7em;
+    max-width: 0.1px;
+    height: 15px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.Wrapper {
+    display: grid;
+    grid-template-columns: 15% 15%;
+    margin-top: 5em;
+    margin-left: 35em;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .Navbar {
+        display: grid;
+        text-align: center;
+    }
+
+    .Navbar a {
+        padding: 1em;
+    }
+
+    #Active {
+        background-color: white;
+        color: black;
+        padding: 1em;
+    }
+
+    .Navbar a:hover {
+        background-color: lightgray;
+        padding: 1em;
+    }
+}

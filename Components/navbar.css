@@ -1,0 +1,22 @@
+#Logo {
+    font-size: larger;
+    color: white;
+}
+
+#Active {
+    color: white;
+}
+
+.Navbar {
+    padding: 2em;
+}
+
+.Navbar a {
+    margin: 1em;
+    color: gray;
+    text-decoration: none;
+}
+
+.Navbar a:hover {
+    color: white;
+}
