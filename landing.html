@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PDB UNAIR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./Components/main.css">
+        <link rel="stylesheet" href="./Components/timeline.css">
+        <link rel="stylesheet" href="./Components/navbar.css">
+        <link rel="stylesheet" href="./flipcard.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="HeaderWrapper">
+            <div class="Navbar">
+                <a href="#" id="Logo"><b>PDB UNAIR</b></h4>
+                <a href="./landing.html" id="Active">Beranda</a>
+                <a href="./sdgs.html">SDGs</a>
+                <a href="./mission.html">Aksi</a>
+            </div>
+            <div class="Progress">
+                <div class="ProgressHeader" id="ProgressHeaderId">
+                    <p><b>THE 17 GOALS</b></p>
+                </div>
+                <div class="Divider" id="ProgressDivider">
+                </div>
+                <div class="Target">
+                    <p><b class="SubProgressH">169</b><br>Target</p>
+                </div>
+                <div class="Event">
+                    <p><b class="SubProgressH">3111</b><br>Acara</p>
+                </div>
+                <div class="Publication">
+                    <p><b class="SubProgressH">1307</b><br>Publikasi</p>
+                </div>
+                <div class="Actioon">
+                    <p><b class="SubProgressH">5489</b><br>Aksi</p>
+                </div>
+            </div>
+            <div class="SDGDefinition">
+                <h2 class="DefinitionHeader">Apa itu SDGs ?</h2>
+                <p class="DefinitionContent">Sustainable Development Goals (SDGs) merupakan suatu rencana aksi global yang disepakati
+                    oleh para pemimpin dunia, termasuk Indonesia, guna mengakhiri kemiskinan, mengurangi kesenjangan
+                    dan melindungi lingkungan, yang mana hal - hal tersebut merupakan mimpi dari seluruh masyarakat Indonesia.
+                    SDGs berisi 17 Tujuan dan 169 Target yang diharapkan dapat dicapai pada tahun 2030.</p>
+            </div>
+            <div onclick="navigateTo('./sdgs.html')" class="DefLearnMore">
+                <p><b>Lebih Lanjut</b></p>
+            </div>
+            <div class="Problem">
+                <h2 class="ProblemHeader">Permasalahan di Indonesia</h2>
+                <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>Kemiskinan</h2>
+                <p>Menurut BPS (Badan Pusat Statistik), tercatat ada 27,54 juta orang miskin pada bulan Maret 2021 dengan garis kemiskinan sebesar Rp472.525,00.</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>Kelaparan</h2>
+                <p>Tingkat kelaparan Indonesia menurut Global Hunger Index (GHI) menempati urutan ketiga tertinggi di Asia Tenggara pada 2021.</p>
+              </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                  <h2>Pendidikan</h2>
+                  <p>Menurut PERC (Political and Economic Risk Consultant), kualitas pendidikan di Indonesia berada pada urutan ke-12 dari 12 negara di Asia.</p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>Kesehatan</h2>
+                  <p>Menurut survey dari AIA Group, dilaporkan bahwa Indonesia mendapatkan skor 55 untuk Overall Health Living Index dan menyebutkan bahwa Indonesia berada di peringkat terendah di antara 15 kawasan Asia Pasifik yang berpartisipasi.</p>
+                </div>
+              </div>
+              <div class="container left">
+                <div class="content">
+                  <h2>Kerusakan Alam</h2>
+                  <p>Kerusakan hutan di Indonesia terindikasi sangat mengkhawatirkan. Hal ini berdasarkan data dari Greenpeace yang menunjukkan bahwa laju kerusakan hutan di Indonesia mencapai 3.800.000 ha / tahun.</p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>Kesetaraan Gender</h2>
+                  <p>Berdasarkan data indeks kesetaraan gender yang dirilis oleh Badan Program Pembangunan PBB (UNDP), Indonesia berada pada peringkat 103 dari 162 negara, dan terendah ketiga se-ASEAN</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div onclick="navigateTo('./mission.html')" class="TakeActionButton">
+            <p><b>Ambil Aksi</b></p>
+        </div>
+        <div class="Spacer"></div>
+        </div>
+    </body>
+</html>
+<script>
+    function navigateTo(url) {
+        window.location = url;
+    }
+</script>
+
+  
