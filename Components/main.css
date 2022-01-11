@@ -59,6 +59,10 @@ body {
     margin-left: 43%;
 }
 
+.Warning {
+    color: red;
+}
+
 .DefLearnMore:hover {
     cursor: pointer;
     background-color: lightgray;
